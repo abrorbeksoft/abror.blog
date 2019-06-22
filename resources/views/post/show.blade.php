@@ -24,6 +24,7 @@
                 </div>
                 <div class="col">
                     <a href="{{ route('post.edit',[$post]) }}" class="btn btn-primary">Update<i class="fas fa-pen-square ml-3"></i></a>
+                    <a href="{{ route('post.index') }}" class="btn btn-info">Main page <i class="fas fa-home ml-3"></i></a>
                 </div>
             </div>
         </div>

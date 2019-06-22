@@ -6,12 +6,10 @@
     <script src="https://kit.fontawesome.com/465dc63746.js"></script>
     <title>@yield('title')</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
 @yield('content')
-<script src="/js/jquery-3.3.1.min.js"></script>
-<script src="/js/popper.min.js" ></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src=" {{ asset('js/app.js')}} "></script>
 </body>
 </html>
